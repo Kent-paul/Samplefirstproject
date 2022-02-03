@@ -1,1 +1,1 @@
-echo This is my first git web hook haha.
+echo This is my first git web hook hahaz.
