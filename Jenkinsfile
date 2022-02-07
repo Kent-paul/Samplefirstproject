@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'printenv'
+                git checkout ${GIT_BRANCH}
             }
         }
     }
