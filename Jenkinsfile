@@ -17,7 +17,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'deploying the application...'
-                echo "$BRANCH_NAME"
+                echo "params.ENV"
             }
         }
     }
