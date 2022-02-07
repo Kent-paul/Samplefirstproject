@@ -15,7 +15,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'deploying the application...'
-                echo '$OIC_ENV'
+                echo "$OIC_ENV"
             }
         }
     }
