@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                git checkout ${GIT_BRANCH}
+                
             }
         }
     }
