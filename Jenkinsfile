@@ -14,7 +14,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'deploying the application...'
-                echo "environment is in ${params.ENV}"
+                echo "environment is in 1 ${params.ENV}"
             }
         }
     }
