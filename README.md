@@ -1,3 +1,3 @@
 # Samplefirstproject
 
-Semple2s
+Semple2
