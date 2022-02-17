@@ -4,7 +4,7 @@ pipeline {
         choice(name: 'ENV', choices: ['dev', 'test', 'prod'], description: '') 
     }
     stages {
-        stage('Build') {
+        stage('Buildz') {
             steps {
                 echo 'building the application...'
             }
